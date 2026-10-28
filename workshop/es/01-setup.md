@@ -13,7 +13,7 @@ En esta parte configurarás tu entorno de desarrollo **y** enseñarás a Copilot
 2. Crea tu propio repositorio mediante una de estas opciones:
    - haciendo clic en **Use this template** → **Create a new repository**, o
    - haciendo un fork del repositorio.
-3. Nómbralo `my-mona-mayhem` y establece la visibilidad como **Public** (si lo creaste desde la plantilla)
+3. Nómbralo `my-mona-mayhem` y establece la visibilidad como **Public** (si lo creaste desde la plantilla).
 
 <!-- track:vscode:start -->
 ### Paso 2: Elige Tu Entorno de Desarrollo
@@ -122,18 +122,20 @@ Usemos el comando integrado `/init` para generar un archivo de instrucciones del
 
 **Agente en segundo plano local:**
 
-1. En el panel de Chat, haz clic en **+** → **New background agent**
-2. Ingresa el prompt:
+1. En el panel de Chat, haz clic en **+** para iniciar un chat nuevo.
+2. En la parte inferior de la ventana, cambia **Local** a **Copilot CLI**.
+3. Ingresa el prompt:
 
-   > "Add linting rules for unused vars and improve code style; fix any errors"
+   > "Añade reglas de lint para variables sin usar y mejora el estilo del código; corrige los errores."
 
-3. Cuando termine, **Revisa y Aplica** los cambios, luego elimina la sesión.
+4. Cuando termine, **Revisa y Aplica** los cambios y archiva la sesión si quieres.
 
 **Agente en la nube:**
 
-1. Inicia otro agente en segundo plano con:
+1. En el panel de Chat, haz clic en **+** para iniciar un chat nuevo.
+2. En la parte inferior de la ventana, cambia **Local** a **Cloud**.
 
-   > "Make the README more engaging as a landing page"
+   > "Haz que el README sea más atractivo como página de inicio."
 
 > **Resultado:** Reglas de linting agregadas, errores corregidos, README mejorado — todo sin salir de tu editor.
 
